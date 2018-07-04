@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EA06D2F820EC2DD20088EB34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA06D2F720EC2DD20088EB34 /* AppDelegate.swift */; };
-		EA06D2FA20EC2DD20088EB34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA06D2F920EC2DD20088EB34 /* ViewController.swift */; };
-		EA06D30020EC2DD30088EB34 /* fbmessenger_1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EA06D2FE20EC2DD30088EB34 /* fbmessenger_1.xcdatamodeld */; };
-		EA06D30220EC2DE50088EB34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA06D30120EC2DE50088EB34 /* Assets.xcassets */; };
-		EA06D30520EC2DE50088EB34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA06D30320EC2DE50088EB34 /* LaunchScreen.storyboard */; };
+		EA75A4A220ED44D20015644E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA75A4A120ED44D20015644E /* AppDelegate.swift */; };
+		EA75A4A420ED44D20015644E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA75A4A320ED44D20015644E /* ViewController.swift */; };
+		EA75A4A720ED44D20015644E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA75A4A520ED44D20015644E /* Main.storyboard */; };
+		EA75A4A920ED44D50015644E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA75A4A820ED44D50015644E /* Assets.xcassets */; };
+		EA75A4AC20ED44D50015644E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA75A4AA20ED44D50015644E /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EA06D2F420EC2DD10088EB34 /* fbmessenger-1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "fbmessenger-1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA06D2F720EC2DD20088EB34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EA06D2F920EC2DD20088EB34 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EA06D2FF20EC2DD30088EB34 /* fbmessenger_1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = fbmessenger_1.xcdatamodel; sourceTree = "<group>"; };
-		EA06D30120EC2DE50088EB34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EA06D30420EC2DE50088EB34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		EA06D30620EC2DE50088EB34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA75A49E20ED44D20015644E /* flippingapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flippingapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA75A4A120ED44D20015644E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA75A4A320ED44D20015644E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EA75A4A620ED44D20015644E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA75A4A820ED44D50015644E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA75A4AB20ED44D50015644E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA75A4AD20ED44D50015644E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		EA06D2F120EC2DD10088EB34 /* Frameworks */ = {
+		EA75A49B20ED44D20015644E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,71 +35,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EA06D2EB20EC2DD10088EB34 = {
+		EA75A49520ED44D20015644E = {
 			isa = PBXGroup;
 			children = (
-				EA06D2F620EC2DD10088EB34 /* fbmessenger-1 */,
-				EA06D2F520EC2DD10088EB34 /* Products */,
+				EA75A4A020ED44D20015644E /* flippingapp */,
+				EA75A49F20ED44D20015644E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		EA06D2F520EC2DD10088EB34 /* Products */ = {
+		EA75A49F20ED44D20015644E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EA06D2F420EC2DD10088EB34 /* fbmessenger-1.app */,
+				EA75A49E20ED44D20015644E /* flippingapp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EA06D2F620EC2DD10088EB34 /* fbmessenger-1 */ = {
+		EA75A4A020ED44D20015644E /* flippingapp */ = {
 			isa = PBXGroup;
 			children = (
-				EA06D2F720EC2DD20088EB34 /* AppDelegate.swift */,
-				EA06D2F920EC2DD20088EB34 /* ViewController.swift */,
-				EA06D30120EC2DE50088EB34 /* Assets.xcassets */,
-				EA06D30320EC2DE50088EB34 /* LaunchScreen.storyboard */,
-				EA06D30620EC2DE50088EB34 /* Info.plist */,
-				EA06D2FE20EC2DD30088EB34 /* fbmessenger_1.xcdatamodeld */,
+				EA75A4A120ED44D20015644E /* AppDelegate.swift */,
+				EA75A4A320ED44D20015644E /* ViewController.swift */,
+				EA75A4A520ED44D20015644E /* Main.storyboard */,
+				EA75A4A820ED44D50015644E /* Assets.xcassets */,
+				EA75A4AA20ED44D50015644E /* LaunchScreen.storyboard */,
+				EA75A4AD20ED44D50015644E /* Info.plist */,
 			);
-			path = "fbmessenger-1";
+			path = flippingapp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EA06D2F320EC2DD10088EB34 /* fbmessenger-1 */ = {
+		EA75A49D20ED44D20015644E /* flippingapp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EA06D30920EC2DE50088EB34 /* Build configuration list for PBXNativeTarget "fbmessenger-1" */;
+			buildConfigurationList = EA75A4B020ED44D50015644E /* Build configuration list for PBXNativeTarget "flippingapp" */;
 			buildPhases = (
-				EA06D2F020EC2DD10088EB34 /* Sources */,
-				EA06D2F120EC2DD10088EB34 /* Frameworks */,
-				EA06D2F220EC2DD10088EB34 /* Resources */,
+				EA75A49A20ED44D20015644E /* Sources */,
+				EA75A49B20ED44D20015644E /* Frameworks */,
+				EA75A49C20ED44D20015644E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "fbmessenger-1";
-			productName = "fbmessenger-1";
-			productReference = EA06D2F420EC2DD10088EB34 /* fbmessenger-1.app */;
+			name = flippingapp;
+			productName = flippingapp;
+			productReference = EA75A49E20ED44D20015644E /* flippingapp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		EA06D2EC20EC2DD10088EB34 /* Project object */ = {
+		EA75A49620ED44D20015644E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = mapapp;
 				TargetAttributes = {
-					EA06D2F320EC2DD10088EB34 = {
+					EA75A49D20ED44D20015644E = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
 				};
 			};
-			buildConfigurationList = EA06D2EF20EC2DD10088EB34 /* Build configuration list for PBXProject "fbmessenger-1" */;
+			buildConfigurationList = EA75A49920ED44D20015644E /* Build configuration list for PBXProject "flippingapp" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -107,46 +107,54 @@
 				en,
 				Base,
 			);
-			mainGroup = EA06D2EB20EC2DD10088EB34;
-			productRefGroup = EA06D2F520EC2DD10088EB34 /* Products */;
+			mainGroup = EA75A49520ED44D20015644E;
+			productRefGroup = EA75A49F20ED44D20015644E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EA06D2F320EC2DD10088EB34 /* fbmessenger-1 */,
+				EA75A49D20ED44D20015644E /* flippingapp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		EA06D2F220EC2DD10088EB34 /* Resources */ = {
+		EA75A49C20ED44D20015644E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA06D30520EC2DE50088EB34 /* LaunchScreen.storyboard in Resources */,
-				EA06D30220EC2DE50088EB34 /* Assets.xcassets in Resources */,
+				EA75A4AC20ED44D50015644E /* LaunchScreen.storyboard in Resources */,
+				EA75A4A920ED44D50015644E /* Assets.xcassets in Resources */,
+				EA75A4A720ED44D20015644E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		EA06D2F020EC2DD10088EB34 /* Sources */ = {
+		EA75A49A20ED44D20015644E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA06D2FA20EC2DD20088EB34 /* ViewController.swift in Sources */,
-				EA06D2F820EC2DD20088EB34 /* AppDelegate.swift in Sources */,
-				EA06D30020EC2DD30088EB34 /* fbmessenger_1.xcdatamodeld in Sources */,
+				EA75A4A420ED44D20015644E /* ViewController.swift in Sources */,
+				EA75A4A220ED44D20015644E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		EA06D30320EC2DE50088EB34 /* LaunchScreen.storyboard */ = {
+		EA75A4A520ED44D20015644E /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EA06D30420EC2DE50088EB34 /* Base */,
+				EA75A4A620ED44D20015644E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA75A4AA20ED44D50015644E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA75A4AB20ED44D50015644E /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -154,7 +162,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		EA06D30720EC2DE50088EB34 /* Debug */ = {
+		EA75A4AE20ED44D50015644E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -214,7 +222,7 @@
 			};
 			name = Debug;
 		};
-		EA06D30820EC2DE50088EB34 /* Release */ = {
+		EA75A4AF20ED44D50015644E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -268,34 +276,34 @@
 			};
 			name = Release;
 		};
-		EA06D30A20EC2DE50088EB34 /* Debug */ = {
+		EA75A4B120ED44D50015644E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "fbmessenger-1/Info.plist";
+				INFOPLIST_FILE = flippingapp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mapapp.fbmessenger-1";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mapapp.flippingapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		EA06D30B20EC2DE50088EB34 /* Release */ = {
+		EA75A4B220ED44D50015644E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "fbmessenger-1/Info.plist";
+				INFOPLIST_FILE = flippingapp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mapapp.fbmessenger-1";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mapapp.flippingapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -305,38 +313,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EA06D2EF20EC2DD10088EB34 /* Build configuration list for PBXProject "fbmessenger-1" */ = {
+		EA75A49920ED44D20015644E /* Build configuration list for PBXProject "flippingapp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EA06D30720EC2DE50088EB34 /* Debug */,
-				EA06D30820EC2DE50088EB34 /* Release */,
+				EA75A4AE20ED44D50015644E /* Debug */,
+				EA75A4AF20ED44D50015644E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EA06D30920EC2DE50088EB34 /* Build configuration list for PBXNativeTarget "fbmessenger-1" */ = {
+		EA75A4B020ED44D50015644E /* Build configuration list for PBXNativeTarget "flippingapp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EA06D30A20EC2DE50088EB34 /* Debug */,
-				EA06D30B20EC2DE50088EB34 /* Release */,
+				EA75A4B120ED44D50015644E /* Debug */,
+				EA75A4B220ED44D50015644E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		EA06D2FE20EC2DD30088EB34 /* fbmessenger_1.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				EA06D2FF20EC2DD30088EB34 /* fbmessenger_1.xcdatamodel */,
-			);
-			currentVersion = EA06D2FF20EC2DD30088EB34 /* fbmessenger_1.xcdatamodel */;
-			path = fbmessenger_1.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
-	rootObject = EA06D2EC20EC2DD10088EB34 /* Project object */;
+	rootObject = EA75A49620ED44D20015644E /* Project object */;
 }
