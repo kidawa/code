@@ -23,30 +23,12 @@ class ViewController: UIViewController {
         userNameField.delegate = self
         passwordField.delegate = self
         phoneNumberField.delegate = self
-
+        
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
-
-    @IBAction func enterButton(_ sender: Any) {
-        
-        textView.text = "User Name: \(userNameField.text!)\nPassword: \(passwordField.text!)\nPhone number: \(phoneNumberField.text!)"
-        
-    }
     
-    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        phoneNumberField.resignFirstResponder()
-    }
-}
-
-extension ViewController : UITextFieldDelegate {
-    
-    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-        textField.resignFirstResponder()
-        print(textView.text)
-        return true
-    }
     
 }
