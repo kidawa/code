@@ -9,10 +9,19 @@
 import UIKit
 
 class FirstViewController: UIViewController {
-
+    
+    var text:String = ""
+    
+    @IBAction func onButtonTap(_ sender: Any)
+    {
+        let vc = SecondViewController(nibName: "SecondaryViewController", bundle: nil)
+        vc.text = "Next level"
+        
+        navigationController?.pushViewController(vc, animated: true)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
 
     override func didReceiveMemoryWarning() {

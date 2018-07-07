@@ -1,23 +1,18 @@
 //
-//  SecondViewController.swift
-//  data-transfer-between-two-views
+//  ViewController.swift
+//  pass-data
 //
-//  Created by Chens on 06/07/2018.
+//  Created by Chens on 07/07/2018.
 //  Copyright © 2018 mapapp. All rights reserved.
 //
 
 import UIKit
 
-class SecondViewController: UIViewController {
-    
-    var text:String = "hello"
-    
-    @IBOutlet weak var textLabel: UILabel!
+class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        textLabel?.text = text
+        // Do any additional setup after loading the view, typically from a nib.
     }
 
     override func didReceiveMemoryWarning() {

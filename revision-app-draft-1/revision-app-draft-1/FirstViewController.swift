@@ -9,26 +9,19 @@
 import UIKit
 
 class ViewController: UIViewController {
+
+    
+    @IBOutlet weak var titleField: UITextField!
+    @IBOutlet weak var termField: UITextField!
+    @IBOutlet weak var definitionField: UITextField!
     
     
-    @IBOutlet weak var userNameField: UITextField!
-    @IBOutlet weak var passwordField: UITextField!
-    @IBOutlet weak var phoneNumberField: UITextField!
-    
-    @IBOutlet weak var textView: UITextView!
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        userNameField.delegate = self
-        passwordField.delegate = self
-        phoneNumberField.delegate = self
-        
     }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
-    
-    
 }
