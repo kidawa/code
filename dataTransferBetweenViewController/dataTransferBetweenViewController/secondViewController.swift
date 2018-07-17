@@ -1,30 +1,17 @@
 //
-//  SecondViewController.swift
-//  pass-data
+//  secondViewController.swift
+//  dataTransferBetweenViewController
 //
-//  Created by Chens on 07/07/2018.
+//  Created by Chens on 17/07/2018.
 //  Copyright © 2018 mapapp. All rights reserved.
 //
 
 import UIKit
 
-class SecondViewController: UIViewController {
-    
-    @IBOutlet weak var label: UILabel!
-    @IBOutlet weak var label1: UILabel!
-    
-    @IBAction func back(_ sender: Any) {
-    }
-    
-    var myString = String()
-    var yourString = String()
+class secondViewController: UIViewController {
 
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        label.text = myString
-        label1.text = yourString
 
         // Do any additional setup after loading the view.
     }
@@ -34,7 +21,7 @@ class SecondViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    
+
     /*
     // MARK: - Navigation
 

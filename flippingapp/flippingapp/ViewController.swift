@@ -24,13 +24,13 @@ class ViewController: UIViewController {
     @IBAction func btnaFlip(_ sender: Any) {
         if isOpen {
             isOpen = false
-            var img = UIImage(named: "apple-cartoon")
+            let img = UIImage(named: "apple-cartoon")
             btnimg.setImage(img, for: .normal)
             UIView.transition(with: btnimg,  duration: 0.3, options: UIViewAnimationOptions.transitionFlipFromLeft, animations: nil, completion: nil)
         }
         else {
             isOpen = true
-            var img = UIImage(named: "word-apple")
+            let img = UIImage(named: "word-apple")
             btnimg.setImage(img, for: .normal)
             UIView.transition(with: btnimg,  duration: 0.3, options: UIViewAnimationOptions.transitionFlipFromRight, animations: nil, completion: nil)
         }
