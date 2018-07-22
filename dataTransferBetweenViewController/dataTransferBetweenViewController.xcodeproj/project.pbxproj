@@ -12,6 +12,7 @@
 		EAF39D1820FE9F3900F82B0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAF39D1620FE9F3900F82B0D /* Main.storyboard */; };
 		EAF39D1A20FE9F5B00F82B0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAF39D1920FE9F5B00F82B0D /* Assets.xcassets */; };
 		EAF39D1D20FE9F5C00F82B0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAF39D1B20FE9F5C00F82B0D /* LaunchScreen.storyboard */; };
+		EAF39D2520FEA0AD00F82B0D /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF39D2420FEA0AD00F82B0D /* secondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		EAF39D1920FE9F5B00F82B0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EAF39D1C20FE9F5C00F82B0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EAF39D1E20FE9F5C00F82B0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAF39D2420FEA0AD00F82B0D /* secondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				EAF39D1220FE9F3900F82B0D /* AppDelegate.swift */,
 				EAF39D1420FE9F3900F82B0D /* ViewController.swift */,
+				EAF39D2420FEA0AD00F82B0D /* secondViewController.swift */,
 				EAF39D1620FE9F3900F82B0D /* Main.storyboard */,
 				EAF39D1920FE9F5B00F82B0D /* Assets.xcassets */,
 				EAF39D1B20FE9F5C00F82B0D /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAF39D1520FE9F3900F82B0D /* ViewController.swift in Sources */,
+				EAF39D2520FEA0AD00F82B0D /* secondViewController.swift in Sources */,
 				EAF39D1320FE9F3900F82B0D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
