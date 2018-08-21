@@ -7,27 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EA4FCC98210BC0C6006D909F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4FCC97210BC0C6006D909F /* AppDelegate.swift */; };
-		EA4FCC9A210BC0C6006D909F /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = EA4FCC99210BC0C6006D909F /* art.scnassets */; };
-		EA4FCC9C210BC0C6006D909F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4FCC9B210BC0C6006D909F /* ViewController.swift */; };
-		EA4FCC9F210BC0C6006D909F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA4FCC9D210BC0C6006D909F /* Main.storyboard */; };
-		EA4FCCA1210BC0CF006D909F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA4FCCA0210BC0CF006D909F /* Assets.xcassets */; };
-		EA4FCCA4210BC0CF006D909F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA4FCCA2210BC0CF006D909F /* LaunchScreen.storyboard */; };
+		EA89DC982129B699003508C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA89DC972129B699003508C2 /* AppDelegate.swift */; };
+		EA89DC9C2129B69A003508C2 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA89DC9B2129B69A003508C2 /* GameViewController.swift */; };
+		EA89DC9F2129B69A003508C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA89DC9D2129B69A003508C2 /* Main.storyboard */; };
+		EA89DCA12129B6A8003508C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA89DCA02129B6A8003508C2 /* Assets.xcassets */; };
+		EA89DCA42129B6A8003508C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA89DCA22129B6A8003508C2 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EA4FCC94210BC0C6006D909F /* ar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ar.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA4FCC97210BC0C6006D909F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EA4FCC99210BC0C6006D909F /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
-		EA4FCC9B210BC0C6006D909F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EA4FCC9E210BC0C6006D909F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EA4FCCA0210BC0CF006D909F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EA4FCCA3210BC0CF006D909F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		EA4FCCA5210BC0CF006D909F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA89DC942129B699003508C2 /* hitTheBlock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hitTheBlock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA89DC972129B699003508C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA89DC9B2129B69A003508C2 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		EA89DC9E2129B69A003508C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA89DCA02129B6A8003508C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA89DCA32129B6A8003508C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA89DCA52129B6A8003508C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		EA4FCC91210BC0C6006D909F /* Frameworks */ = {
+		EA89DC912129B699003508C2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,72 +35,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EA4FCC8B210BC0C6006D909F = {
+		EA89DC8B2129B699003508C2 = {
 			isa = PBXGroup;
 			children = (
-				EA4FCC96210BC0C6006D909F /* ar */,
-				EA4FCC95210BC0C6006D909F /* Products */,
+				EA89DC962129B699003508C2 /* hitTheBlock */,
+				EA89DC952129B699003508C2 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		EA4FCC95210BC0C6006D909F /* Products */ = {
+		EA89DC952129B699003508C2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EA4FCC94210BC0C6006D909F /* ar.app */,
+				EA89DC942129B699003508C2 /* hitTheBlock.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EA4FCC96210BC0C6006D909F /* ar */ = {
+		EA89DC962129B699003508C2 /* hitTheBlock */ = {
 			isa = PBXGroup;
 			children = (
-				EA4FCC97210BC0C6006D909F /* AppDelegate.swift */,
-				EA4FCC99210BC0C6006D909F /* art.scnassets */,
-				EA4FCC9B210BC0C6006D909F /* ViewController.swift */,
-				EA4FCC9D210BC0C6006D909F /* Main.storyboard */,
-				EA4FCCA0210BC0CF006D909F /* Assets.xcassets */,
-				EA4FCCA2210BC0CF006D909F /* LaunchScreen.storyboard */,
-				EA4FCCA5210BC0CF006D909F /* Info.plist */,
+				EA89DC972129B699003508C2 /* AppDelegate.swift */,
+				EA89DC9B2129B69A003508C2 /* GameViewController.swift */,
+				EA89DC9D2129B69A003508C2 /* Main.storyboard */,
+				EA89DCA02129B6A8003508C2 /* Assets.xcassets */,
+				EA89DCA22129B6A8003508C2 /* LaunchScreen.storyboard */,
+				EA89DCA52129B6A8003508C2 /* Info.plist */,
 			);
-			path = ar;
+			path = hitTheBlock;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EA4FCC93210BC0C6006D909F /* ar */ = {
+		EA89DC932129B699003508C2 /* hitTheBlock */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EA4FCCA8210BC0CF006D909F /* Build configuration list for PBXNativeTarget "ar" */;
+			buildConfigurationList = EA89DCA82129B6A8003508C2 /* Build configuration list for PBXNativeTarget "hitTheBlock" */;
 			buildPhases = (
-				EA4FCC90210BC0C6006D909F /* Sources */,
-				EA4FCC91210BC0C6006D909F /* Frameworks */,
-				EA4FCC92210BC0C6006D909F /* Resources */,
+				EA89DC902129B699003508C2 /* Sources */,
+				EA89DC912129B699003508C2 /* Frameworks */,
+				EA89DC922129B699003508C2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ar;
-			productName = ar;
-			productReference = EA4FCC94210BC0C6006D909F /* ar.app */;
+			name = hitTheBlock;
+			productName = hitTheBlock;
+			productReference = EA89DC942129B699003508C2 /* hitTheBlock.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		EA4FCC8C210BC0C6006D909F /* Project object */ = {
+		EA89DC8C2129B699003508C2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = mapapp;
 				TargetAttributes = {
-					EA4FCC93210BC0C6006D909F = {
+					EA89DC932129B699003508C2 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
 				};
 			};
-			buildConfigurationList = EA4FCC8F210BC0C6006D909F /* Build configuration list for PBXProject "ar" */;
+			buildConfigurationList = EA89DC8F2129B699003508C2 /* Build configuration list for PBXProject "hitTheBlock" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,55 +107,54 @@
 				en,
 				Base,
 			);
-			mainGroup = EA4FCC8B210BC0C6006D909F;
-			productRefGroup = EA4FCC95210BC0C6006D909F /* Products */;
+			mainGroup = EA89DC8B2129B699003508C2;
+			productRefGroup = EA89DC952129B699003508C2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EA4FCC93210BC0C6006D909F /* ar */,
+				EA89DC932129B699003508C2 /* hitTheBlock */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		EA4FCC92210BC0C6006D909F /* Resources */ = {
+		EA89DC922129B699003508C2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA4FCC9A210BC0C6006D909F /* art.scnassets in Resources */,
-				EA4FCCA4210BC0CF006D909F /* LaunchScreen.storyboard in Resources */,
-				EA4FCCA1210BC0CF006D909F /* Assets.xcassets in Resources */,
-				EA4FCC9F210BC0C6006D909F /* Main.storyboard in Resources */,
+				EA89DCA42129B6A8003508C2 /* LaunchScreen.storyboard in Resources */,
+				EA89DCA12129B6A8003508C2 /* Assets.xcassets in Resources */,
+				EA89DC9F2129B69A003508C2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		EA4FCC90210BC0C6006D909F /* Sources */ = {
+		EA89DC902129B699003508C2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA4FCC9C210BC0C6006D909F /* ViewController.swift in Sources */,
-				EA4FCC98210BC0C6006D909F /* AppDelegate.swift in Sources */,
+				EA89DC9C2129B69A003508C2 /* GameViewController.swift in Sources */,
+				EA89DC982129B699003508C2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		EA4FCC9D210BC0C6006D909F /* Main.storyboard */ = {
+		EA89DC9D2129B69A003508C2 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EA4FCC9E210BC0C6006D909F /* Base */,
+				EA89DC9E2129B69A003508C2 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		EA4FCCA2210BC0CF006D909F /* LaunchScreen.storyboard */ = {
+		EA89DCA22129B6A8003508C2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EA4FCCA3210BC0CF006D909F /* Base */,
+				EA89DCA32129B6A8003508C2 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +162,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		EA4FCCA6210BC0CF006D909F /* Debug */ = {
+		EA89DCA62129B6A8003508C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -226,7 +222,7 @@
 			};
 			name = Debug;
 		};
-		EA4FCCA7210BC0CF006D909F /* Release */ = {
+		EA89DCA72129B6A8003508C2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -280,36 +276,34 @@
 			};
 			name = Release;
 		};
-		EA4FCCA9210BC0CF006D909F /* Debug */ = {
+		EA89DCA92129B6A8003508C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 33X64W8ST8;
-				INFOPLIST_FILE = ar/Info.plist;
+				INFOPLIST_FILE = hitTheBlock/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mapapp.ar;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mapapp.hitTheBlock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		EA4FCCAA210BC0CF006D909F /* Release */ = {
+		EA89DCAA2129B6A8003508C2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 33X64W8ST8;
-				INFOPLIST_FILE = ar/Info.plist;
+				INFOPLIST_FILE = hitTheBlock/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mapapp.ar;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mapapp.hitTheBlock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -319,25 +313,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EA4FCC8F210BC0C6006D909F /* Build configuration list for PBXProject "ar" */ = {
+		EA89DC8F2129B699003508C2 /* Build configuration list for PBXProject "hitTheBlock" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EA4FCCA6210BC0CF006D909F /* Debug */,
-				EA4FCCA7210BC0CF006D909F /* Release */,
+				EA89DCA62129B6A8003508C2 /* Debug */,
+				EA89DCA72129B6A8003508C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EA4FCCA8210BC0CF006D909F /* Build configuration list for PBXNativeTarget "ar" */ = {
+		EA89DCA82129B6A8003508C2 /* Build configuration list for PBXNativeTarget "hitTheBlock" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EA4FCCA9210BC0CF006D909F /* Debug */,
-				EA4FCCAA210BC0CF006D909F /* Release */,
+				EA89DCA92129B6A8003508C2 /* Debug */,
+				EA89DCAA2129B6A8003508C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = EA4FCC8C210BC0C6006D909F /* Project object */;
+	rootObject = EA89DC8C2129B699003508C2 /* Project object */;
 }

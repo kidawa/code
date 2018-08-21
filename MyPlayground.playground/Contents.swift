@@ -144,6 +144,244 @@ let message = "Now playing \(trackName) by \(artistName) which is \(duration / 6
 
 print(message)
 
+// classes and structs
+
+class Appliance {
+    var manufacturer: String = ""
+    var model: String = ""
+    var voltage: Int = 0
+    var capacity: Int?
+}
+    // initializer (so you do not have to provide explicit values)
+    // an initializer method with empty parentheses will be called when you create a new instance class (in this case 'Appliance()' with empty parentheses)
+    
+    init() {
+        self.manufacturer = "default manufacturer"
+        self.model = "default model"
+        self.voltage = 120
+        // the capacity can remain uninitialised as it was declared optional above
+    }
+    
+    // additional initializers with different parameters so you can tell them apart
+    
+    init(withVoltage: Int) {
+        self.manufacturer = "default manufacturer"
+        self.model = "default model"
+        self.voltage = withVoltage
+    }
+    
+    // deinitializer (only one) - only allowed in classes (and not in structs)
+    // no parameters and returns no values
+    // ARC (automatic reference counting) takes care of any instances that is no longer being used (swift will then call the 'deinit' function, so you don't call the 'deinit' yourself
+    
+    deinit {
+        // perform cleanup code here...
+        // release a file resource...
+        // release a network resource...
+    }
+
+    func getDetails() -> String {
+        // use self to show that it is referencing the properties of the current instance
+        // to clear up potential conflicting names
+        var message = "This is the \(self.model) from \(self.manufacturer). "
+        if self.voltage >= 220 {
+            message += "This model is for European usage"
+        }
+        return message
+    }
+}
+
+var kettle = Appliance()
+kettle.manufacturer = "Megappliance, Inc"
+kettle.model = "TeaMaster 5000"
+kettle.voltage = 120
+print(kettle.getDetails())
+// use dot syntax to change or call the class functions
+
+var cafetiere = Appliance(withVoltage: 220)
+cafetiere.manufacturer = "Megappliance EU"
+cafetiere.model = "Electrotiere"
+print(cafetiere.getDetails())
+
+// structs
+
+struct Appliance1 {
+    // properties
+    var manufacturer: String
+    var model: String
+}
+
+// create a new instance
+var toaster = Appliance1(manufacturer: "AcmeCorp", model: "Toastermatic")
+// called memberwise initialisers
+
+// difference between structs and classes
+
+// structs are value types (when assigning it to a new variable or constant, the value is copied; when you pass a struct into a function, the value is copied)
+// structs do not support inheritance
+
+// classes are reference types (when you pass it to  a function, a reference to the original instance is passed; any change to it can affect the original object)
+// classes support inheritance
+
+
+// you would create a new file with each class
+
+class Tool {
+    var make: String
+    var model: String
+    init() {
+        self.make = "default"
+        self.model = "default"
+    }
+    func printDetails() {
+        print("Make : \(self.make) \nModel: \(self.model)")
+    }
+}
+
+// define a new class
+// you can create a new class that inherits another class functionality like this
+// the new class is called the 'subclass' and the original is called the 'superclass'
+
+class Cooker: Tool {
+    var slices: Int
+    
+    override init() {
+        self.slices = 2
+    }
+    
+    func cook() {
+        print("cooking now...")
+    }
+}
+
+var myCooker = Cooker()
+
+// Closures:
+
+struct Book {
+    var title: String
+    var authorLastName: String
+    var authorFirstName: String
+    var readingAge: Int
+    var pageCount: Int
+}
+
+// book instances
+
+let book1 = Book.init(title: "Where the Wild Things Are", authorLastName: "Sendak", authorFirstName: "Maurice", readingAge: 4, pageCount: 48)
+let book2 = Book.init(title: "The Little Prince", authorLastName: "de Saint-Exupery", authorFirstName: "Antoine", readingAge: 10, pageCount: 96)
+let book3 = Book.init(title: "Oh, the Places You'll Go!", authorLastName: "Seuss", authorFirstName: "Dr.", readingAge: 1, pageCount: 56)
+let book4 = Book.init(title: "Goodnight Moon", authorLastName: "Wise Brown", authorFirstName: "Margaret", readingAge: 1, pageCount: 30)
+let book5 = Book.init(title: "The Hobbit", authorLastName: "Tolkein", authorFirstName: "J.R.R.", readingAge: 12, pageCount: 300)
+
+// array of book elements
+
+let allBooks = [book1, book2, book3, book4, book5]
+
+// calling a function to sort
+
+func compareTwoBooks (firstBook: Book, secondBook: Book) {
+    if firstBook.readingAge <= secondBook.readingAge {
+        return true
+    } else {
+        return false
+    }
+}
+
+let ageSortedBooks = allBooks.sorted(by: compareTwoBooks)
+
+// clear up closure
+// first take away function
+
+(firstBook: Book, secondBook: Book) {
+    if firstBook.readingAge <= secondBook.readingAge {
+        return true
+    } else {
+        return false
+    }
+}
+
+// put parameters inside the closure
+
+{
+    (firstBook: Book, secondBook: Book)
+    // use 'in' to seperate parameters and if statement
+    in
+    if firstBook.readingAge <= secondBook.readingAge {
+        return true
+    } else {
+        return false
+    }
+}
+
+// insert above into the sorted function in constant ageSortedBooks
+
+let ageSortedBooks = allBooks.sorted(by: {
+    (firstBook: Book, secondBook: Book)
+    in
+    if firstBook.readingAge <= secondBook.readingAge {
+        return true
+    } else {
+        return false
+    }
+})
+
+// deletion of parameters: because the parameter is the only one that can be used, defining it is unneccessary
+
+let ageSortedBooks = allBooks.sorted(by: {
+    if firstBook.readingAge <= secondBook.readingAge {
+        return true
+    } else {
+        return false
+    }
+})
+
+// However, the names now are not defined ('firstBook' and 'secondBook')
+// Swift generates implicit names for parameters starting from '$0'
+
+let ageSortedBooks = allBooks.sorted(by: {
+    if $0.readingAge <= $1.readingAge {
+        return true
+    } else {
+        return false
+    }
+})
+
+// as there is only one argument, you can place the closure outside of the parentheses
+
+let ageSortedBooks = allBooks.sorted(by:)   {
+    if $0.readingAge <= $1.readingAge {
+        return true
+    } else {
+        return false
+    }
+}
+    
+// because there is only one arguement, you can get rid of the '(by:)'
+
+let ageSortedBooks = allBooks.sorted {
+    if $0.readingAge <= $1.readingAge {
+        return true
+    } else {
+        return false
+    }
+}
+
+// the statement produces a boolean value by default so the 'return true/false' is not needed
+
+let ageSortedBooks = allBooks.sorted {
+    return $0.readingAge <= $1.readingAge
+}
+
+// define a protocol
+protocol MyProtocol {
+    func showMessage()
+    var name: String { get }
+}
+
+
+
+
 
 
 
