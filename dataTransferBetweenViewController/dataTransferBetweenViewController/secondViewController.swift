@@ -23,6 +23,10 @@ class secondViewController: UIViewController {
 
     @IBAction func buttonFlip(_ sender: Any)
     {
+        
+    UserDefaults.standard.set(self.finalSegue, forKey: "textField")
+    UserDefaults.standard.set(self.finalfSegue, forKey: "termField")
+        
         if isOpen {
             isOpen = false
             let frontSide = finalSegue
@@ -35,6 +39,16 @@ class secondViewController: UIViewController {
             button.setTitle(frontSide, for: .normal)
             UIView.transition(with: button, duration: 0.3, options: UIViewAnimationOptions.transitionFlipFromRight, animations: nil, completion: nil)
         }
+    }
+
+    override func viewDidAppear(_ animated: Bool) {
+        if let x = UserDefaults.standard.object(forKey: "termField") as? String {
+            finalSegue = x
+            if let x = UserDefaults.standard.object(forKey: "textField") as? String {
+                finalfSegue = x
+                }
+        }
+        print(finalSegue, finalfSegue)
     }
 
 }

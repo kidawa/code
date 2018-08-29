@@ -28,7 +28,7 @@ class ViewController: UIViewController {
 
     @IBAction func done(_ sender: Any)
     {
-        self.segueText = textField.text! 
+        self.segueText = textField.text!
         self.segueTermText = termField.text!
         performSegue(withIdentifier: "segue", sender: self)
     }
