@@ -7,66 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EA25C09F214087810014ECBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA25C09E214087810014ECBB /* AppDelegate.swift */; };
-		EA25C0A1214087810014ECBB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA25C0A0214087810014ECBB /* ViewController.swift */; };
-		EA25C0A6214087880014ECBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA25C0A5214087880014ECBB /* Assets.xcassets */; };
-		EA25C0A9214087880014ECBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA25C0A7214087880014ECBB /* LaunchScreen.storyboard */; };
-		EA25C0B4214087880014ECBB /* InstagramCloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA25C0B3214087880014ECBB /* InstagramCloneTests.swift */; };
-		EA25C0BF214087880014ECBB /* InstagramCloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA25C0BE214087880014ECBB /* InstagramCloneUITests.swift */; };
-		EA25C0CD214089290014ECBB /* images (1).jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EA25C0CC214089290014ECBB /* images (1).jpeg */; };
-		EA25C0CF21432E520014ECBB /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA25C0CE21432E520014ECBB /* SignInViewController.swift */; };
+		EA25C15C21457F530014ECBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA25C15B21457F530014ECBB /* AppDelegate.swift */; };
+		EA25C15E21457F530014ECBB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA25C15D21457F530014ECBB /* ViewController.swift */; };
+		EA25C16121457F530014ECBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA25C15F21457F530014ECBB /* Main.storyboard */; };
+		EA25C16321457F580014ECBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA25C16221457F580014ECBB /* Assets.xcassets */; };
+		EA25C16621457F580014ECBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA25C16421457F580014ECBB /* LaunchScreen.storyboard */; };
+		EA25C17121457F580014ECBB /* googleMapAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA25C17021457F580014ECBB /* googleMapAppTests.swift */; };
+		EA25C17C21457F580014ECBB /* googleMapAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA25C17B21457F580014ECBB /* googleMapAppUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		EA25C0B0214087880014ECBB /* PBXContainerItemProxy */ = {
+		EA25C16D21457F580014ECBB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = EA25C093214087810014ECBB /* Project object */;
+			containerPortal = EA25C15021457F520014ECBB /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = EA25C09A214087810014ECBB;
-			remoteInfo = InstagramClone;
+			remoteGlobalIDString = EA25C15721457F530014ECBB;
+			remoteInfo = googleMapApp;
 		};
-		EA25C0BB214087880014ECBB /* PBXContainerItemProxy */ = {
+		EA25C17821457F580014ECBB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = EA25C093214087810014ECBB /* Project object */;
+			containerPortal = EA25C15021457F520014ECBB /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = EA25C09A214087810014ECBB;
-			remoteInfo = InstagramClone;
+			remoteGlobalIDString = EA25C15721457F530014ECBB;
+			remoteInfo = googleMapApp;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		EA25C09B214087810014ECBB /* InstagramClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA25C09E214087810014ECBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EA25C0A0214087810014ECBB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EA25C0A5214087880014ECBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EA25C0A8214087880014ECBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		EA25C0AA214087880014ECBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EA25C0AF214087880014ECBB /* InstagramCloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstagramCloneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA25C0B3214087880014ECBB /* InstagramCloneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramCloneTests.swift; sourceTree = "<group>"; };
-		EA25C0B5214087880014ECBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EA25C0BA214087880014ECBB /* InstagramCloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstagramCloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA25C0BE214087880014ECBB /* InstagramCloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramCloneUITests.swift; sourceTree = "<group>"; };
-		EA25C0C0214087880014ECBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EA25C0CC214089290014ECBB /* images (1).jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "images (1).jpeg"; sourceTree = "<group>"; };
-		EA25C0CE21432E520014ECBB /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		EA25C15821457F530014ECBB /* googleMapApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = googleMapApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA25C15B21457F530014ECBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA25C15D21457F530014ECBB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EA25C16021457F530014ECBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA25C16221457F580014ECBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA25C16521457F580014ECBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA25C16721457F580014ECBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA25C16C21457F580014ECBB /* googleMapAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = googleMapAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA25C17021457F580014ECBB /* googleMapAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = googleMapAppTests.swift; sourceTree = "<group>"; };
+		EA25C17221457F580014ECBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA25C17721457F580014ECBB /* googleMapAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = googleMapAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA25C17B21457F580014ECBB /* googleMapAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = googleMapAppUITests.swift; sourceTree = "<group>"; };
+		EA25C17D21457F580014ECBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		EA25C098214087810014ECBB /* Frameworks */ = {
+		EA25C15521457F530014ECBB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EA25C0AC214087880014ECBB /* Frameworks */ = {
+		EA25C16921457F580014ECBB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EA25C0B7214087880014ECBB /* Frameworks */ = {
+		EA25C17421457F580014ECBB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,138 +74,137 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EA25C092214087810014ECBB = {
+		EA25C14F21457F520014ECBB = {
 			isa = PBXGroup;
 			children = (
-				EA25C09D214087810014ECBB /* InstagramClone */,
-				EA25C0B2214087880014ECBB /* InstagramCloneTests */,
-				EA25C0BD214087880014ECBB /* InstagramCloneUITests */,
-				EA25C09C214087810014ECBB /* Products */,
+				EA25C15A21457F530014ECBB /* googleMapApp */,
+				EA25C16F21457F580014ECBB /* googleMapAppTests */,
+				EA25C17A21457F580014ECBB /* googleMapAppUITests */,
+				EA25C15921457F530014ECBB /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		EA25C09C214087810014ECBB /* Products */ = {
+		EA25C15921457F530014ECBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EA25C09B214087810014ECBB /* InstagramClone.app */,
-				EA25C0AF214087880014ECBB /* InstagramCloneTests.xctest */,
-				EA25C0BA214087880014ECBB /* InstagramCloneUITests.xctest */,
+				EA25C15821457F530014ECBB /* googleMapApp.app */,
+				EA25C16C21457F580014ECBB /* googleMapAppTests.xctest */,
+				EA25C17721457F580014ECBB /* googleMapAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EA25C09D214087810014ECBB /* InstagramClone */ = {
+		EA25C15A21457F530014ECBB /* googleMapApp */ = {
 			isa = PBXGroup;
 			children = (
-				EA25C09E214087810014ECBB /* AppDelegate.swift */,
-				EA25C0CE21432E520014ECBB /* SignInViewController.swift */,
-				EA25C0A0214087810014ECBB /* ViewController.swift */,
-				EA25C0A5214087880014ECBB /* Assets.xcassets */,
-				EA25C0CC214089290014ECBB /* images (1).jpeg */,
-				EA25C0A7214087880014ECBB /* LaunchScreen.storyboard */,
-				EA25C0AA214087880014ECBB /* Info.plist */,
+				EA25C15B21457F530014ECBB /* AppDelegate.swift */,
+				EA25C15D21457F530014ECBB /* ViewController.swift */,
+				EA25C15F21457F530014ECBB /* Main.storyboard */,
+				EA25C16221457F580014ECBB /* Assets.xcassets */,
+				EA25C16421457F580014ECBB /* LaunchScreen.storyboard */,
+				EA25C16721457F580014ECBB /* Info.plist */,
 			);
-			path = InstagramClone;
+			path = googleMapApp;
 			sourceTree = "<group>";
 		};
-		EA25C0B2214087880014ECBB /* InstagramCloneTests */ = {
+		EA25C16F21457F580014ECBB /* googleMapAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				EA25C0B3214087880014ECBB /* InstagramCloneTests.swift */,
-				EA25C0B5214087880014ECBB /* Info.plist */,
+				EA25C17021457F580014ECBB /* googleMapAppTests.swift */,
+				EA25C17221457F580014ECBB /* Info.plist */,
 			);
-			path = InstagramCloneTests;
+			path = googleMapAppTests;
 			sourceTree = "<group>";
 		};
-		EA25C0BD214087880014ECBB /* InstagramCloneUITests */ = {
+		EA25C17A21457F580014ECBB /* googleMapAppUITests */ = {
 			isa = PBXGroup;
 			children = (
-				EA25C0BE214087880014ECBB /* InstagramCloneUITests.swift */,
-				EA25C0C0214087880014ECBB /* Info.plist */,
+				EA25C17B21457F580014ECBB /* googleMapAppUITests.swift */,
+				EA25C17D21457F580014ECBB /* Info.plist */,
 			);
-			path = InstagramCloneUITests;
+			path = googleMapAppUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EA25C09A214087810014ECBB /* InstagramClone */ = {
+		EA25C15721457F530014ECBB /* googleMapApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EA25C0C3214087880014ECBB /* Build configuration list for PBXNativeTarget "InstagramClone" */;
+			buildConfigurationList = EA25C18021457F580014ECBB /* Build configuration list for PBXNativeTarget "googleMapApp" */;
 			buildPhases = (
-				EA25C097214087810014ECBB /* Sources */,
-				EA25C098214087810014ECBB /* Frameworks */,
-				EA25C099214087810014ECBB /* Resources */,
+				EA25C15421457F530014ECBB /* Sources */,
+				EA25C15521457F530014ECBB /* Frameworks */,
+				EA25C15621457F530014ECBB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = InstagramClone;
-			productName = InstagramClone;
-			productReference = EA25C09B214087810014ECBB /* InstagramClone.app */;
+			name = googleMapApp;
+			productName = googleMapApp;
+			productReference = EA25C15821457F530014ECBB /* googleMapApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		EA25C0AE214087880014ECBB /* InstagramCloneTests */ = {
+		EA25C16B21457F580014ECBB /* googleMapAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EA25C0C6214087880014ECBB /* Build configuration list for PBXNativeTarget "InstagramCloneTests" */;
+			buildConfigurationList = EA25C18321457F580014ECBB /* Build configuration list for PBXNativeTarget "googleMapAppTests" */;
 			buildPhases = (
-				EA25C0AB214087880014ECBB /* Sources */,
-				EA25C0AC214087880014ECBB /* Frameworks */,
-				EA25C0AD214087880014ECBB /* Resources */,
+				EA25C16821457F580014ECBB /* Sources */,
+				EA25C16921457F580014ECBB /* Frameworks */,
+				EA25C16A21457F580014ECBB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EA25C0B1214087880014ECBB /* PBXTargetDependency */,
+				EA25C16E21457F580014ECBB /* PBXTargetDependency */,
 			);
-			name = InstagramCloneTests;
-			productName = InstagramCloneTests;
-			productReference = EA25C0AF214087880014ECBB /* InstagramCloneTests.xctest */;
+			name = googleMapAppTests;
+			productName = googleMapAppTests;
+			productReference = EA25C16C21457F580014ECBB /* googleMapAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		EA25C0B9214087880014ECBB /* InstagramCloneUITests */ = {
+		EA25C17621457F580014ECBB /* googleMapAppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EA25C0C9214087880014ECBB /* Build configuration list for PBXNativeTarget "InstagramCloneUITests" */;
+			buildConfigurationList = EA25C18621457F580014ECBB /* Build configuration list for PBXNativeTarget "googleMapAppUITests" */;
 			buildPhases = (
-				EA25C0B6214087880014ECBB /* Sources */,
-				EA25C0B7214087880014ECBB /* Frameworks */,
-				EA25C0B8214087880014ECBB /* Resources */,
+				EA25C17321457F580014ECBB /* Sources */,
+				EA25C17421457F580014ECBB /* Frameworks */,
+				EA25C17521457F580014ECBB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EA25C0BC214087880014ECBB /* PBXTargetDependency */,
+				EA25C17921457F580014ECBB /* PBXTargetDependency */,
 			);
-			name = InstagramCloneUITests;
-			productName = InstagramCloneUITests;
-			productReference = EA25C0BA214087880014ECBB /* InstagramCloneUITests.xctest */;
+			name = googleMapAppUITests;
+			productName = googleMapAppUITests;
+			productReference = EA25C17721457F580014ECBB /* googleMapAppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		EA25C093214087810014ECBB /* Project object */ = {
+		EA25C15021457F520014ECBB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = mapapp;
 				TargetAttributes = {
-					EA25C09A214087810014ECBB = {
+					EA25C15721457F530014ECBB = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
-					EA25C0AE214087880014ECBB = {
+					EA25C16B21457F580014ECBB = {
 						CreatedOnToolsVersion = 9.4.1;
-						TestTargetID = EA25C09A214087810014ECBB;
+						TestTargetID = EA25C15721457F530014ECBB;
 					};
-					EA25C0B9214087880014ECBB = {
+					EA25C17621457F580014ECBB = {
 						CreatedOnToolsVersion = 9.4.1;
-						TestTargetID = EA25C09A214087810014ECBB;
+						TestTargetID = EA25C15721457F530014ECBB;
 					};
 				};
 			};
-			buildConfigurationList = EA25C096214087810014ECBB /* Build configuration list for PBXProject "InstagramClone" */;
+			buildConfigurationList = EA25C15321457F520014ECBB /* Build configuration list for PBXProject "googleMapApp" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -215,37 +212,37 @@
 				en,
 				Base,
 			);
-			mainGroup = EA25C092214087810014ECBB;
-			productRefGroup = EA25C09C214087810014ECBB /* Products */;
+			mainGroup = EA25C14F21457F520014ECBB;
+			productRefGroup = EA25C15921457F530014ECBB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EA25C09A214087810014ECBB /* InstagramClone */,
-				EA25C0AE214087880014ECBB /* InstagramCloneTests */,
-				EA25C0B9214087880014ECBB /* InstagramCloneUITests */,
+				EA25C15721457F530014ECBB /* googleMapApp */,
+				EA25C16B21457F580014ECBB /* googleMapAppTests */,
+				EA25C17621457F580014ECBB /* googleMapAppUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		EA25C099214087810014ECBB /* Resources */ = {
+		EA25C15621457F530014ECBB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA25C0A9214087880014ECBB /* LaunchScreen.storyboard in Resources */,
-				EA25C0A6214087880014ECBB /* Assets.xcassets in Resources */,
-				EA25C0CD214089290014ECBB /* images (1).jpeg in Resources */,
+				EA25C16621457F580014ECBB /* LaunchScreen.storyboard in Resources */,
+				EA25C16321457F580014ECBB /* Assets.xcassets in Resources */,
+				EA25C16121457F530014ECBB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EA25C0AD214087880014ECBB /* Resources */ = {
+		EA25C16A21457F580014ECBB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EA25C0B8214087880014ECBB /* Resources */ = {
+		EA25C17521457F580014ECBB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -255,52 +252,59 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		EA25C097214087810014ECBB /* Sources */ = {
+		EA25C15421457F530014ECBB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA25C0A1214087810014ECBB /* ViewController.swift in Sources */,
-				EA25C09F214087810014ECBB /* AppDelegate.swift in Sources */,
-				EA25C0CF21432E520014ECBB /* SignInViewController.swift in Sources */,
+				EA25C15E21457F530014ECBB /* ViewController.swift in Sources */,
+				EA25C15C21457F530014ECBB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EA25C0AB214087880014ECBB /* Sources */ = {
+		EA25C16821457F580014ECBB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA25C0B4214087880014ECBB /* InstagramCloneTests.swift in Sources */,
+				EA25C17121457F580014ECBB /* googleMapAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EA25C0B6214087880014ECBB /* Sources */ = {
+		EA25C17321457F580014ECBB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA25C0BF214087880014ECBB /* InstagramCloneUITests.swift in Sources */,
+				EA25C17C21457F580014ECBB /* googleMapAppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		EA25C0B1214087880014ECBB /* PBXTargetDependency */ = {
+		EA25C16E21457F580014ECBB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EA25C09A214087810014ECBB /* InstagramClone */;
-			targetProxy = EA25C0B0214087880014ECBB /* PBXContainerItemProxy */;
+			target = EA25C15721457F530014ECBB /* googleMapApp */;
+			targetProxy = EA25C16D21457F580014ECBB /* PBXContainerItemProxy */;
 		};
-		EA25C0BC214087880014ECBB /* PBXTargetDependency */ = {
+		EA25C17921457F580014ECBB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EA25C09A214087810014ECBB /* InstagramClone */;
-			targetProxy = EA25C0BB214087880014ECBB /* PBXContainerItemProxy */;
+			target = EA25C15721457F530014ECBB /* googleMapApp */;
+			targetProxy = EA25C17821457F580014ECBB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		EA25C0A7214087880014ECBB /* LaunchScreen.storyboard */ = {
+		EA25C15F21457F530014ECBB /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EA25C0A8214087880014ECBB /* Base */,
+				EA25C16021457F530014ECBB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA25C16421457F580014ECBB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA25C16521457F580014ECBB /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -308,7 +312,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		EA25C0C1214087880014ECBB /* Debug */ = {
+		EA25C17E21457F580014ECBB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -368,7 +372,7 @@
 			};
 			name = Debug;
 		};
-		EA25C0C2214087880014ECBB /* Release */ = {
+		EA25C17F21457F580014ECBB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -422,164 +426,164 @@
 			};
 			name = Release;
 		};
-		EA25C0C4214087880014ECBB /* Debug */ = {
+		EA25C18121457F580014ECBB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 33X64W8ST8;
-				INFOPLIST_FILE = InstagramClone/Info.plist;
+				INFOPLIST_FILE = googleMapApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mapapp.InstagramClone;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mapapp.googleMapApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		EA25C0C5214087880014ECBB /* Release */ = {
+		EA25C18221457F580014ECBB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 33X64W8ST8;
-				INFOPLIST_FILE = InstagramClone/Info.plist;
+				INFOPLIST_FILE = googleMapApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mapapp.InstagramClone;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mapapp.googleMapApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		EA25C0C7214087880014ECBB /* Debug */ = {
+		EA25C18421457F580014ECBB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 33X64W8ST8;
-				INFOPLIST_FILE = InstagramCloneTests/Info.plist;
+				INFOPLIST_FILE = googleMapAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mapapp.InstagramCloneTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mapapp.googleMapAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InstagramClone.app/InstagramClone";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/googleMapApp.app/googleMapApp";
 			};
 			name = Debug;
 		};
-		EA25C0C8214087880014ECBB /* Release */ = {
+		EA25C18521457F580014ECBB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 33X64W8ST8;
-				INFOPLIST_FILE = InstagramCloneTests/Info.plist;
+				INFOPLIST_FILE = googleMapAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mapapp.InstagramCloneTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mapapp.googleMapAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InstagramClone.app/InstagramClone";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/googleMapApp.app/googleMapApp";
 			};
 			name = Release;
 		};
-		EA25C0CA214087880014ECBB /* Debug */ = {
+		EA25C18721457F580014ECBB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 33X64W8ST8;
-				INFOPLIST_FILE = InstagramCloneUITests/Info.plist;
+				INFOPLIST_FILE = googleMapAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mapapp.InstagramCloneUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mapapp.googleMapAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = InstagramClone;
+				TEST_TARGET_NAME = googleMapApp;
 			};
 			name = Debug;
 		};
-		EA25C0CB214087880014ECBB /* Release */ = {
+		EA25C18821457F580014ECBB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 33X64W8ST8;
-				INFOPLIST_FILE = InstagramCloneUITests/Info.plist;
+				INFOPLIST_FILE = googleMapAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mapapp.InstagramCloneUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mapapp.googleMapAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = InstagramClone;
+				TEST_TARGET_NAME = googleMapApp;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EA25C096214087810014ECBB /* Build configuration list for PBXProject "InstagramClone" */ = {
+		EA25C15321457F520014ECBB /* Build configuration list for PBXProject "googleMapApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EA25C0C1214087880014ECBB /* Debug */,
-				EA25C0C2214087880014ECBB /* Release */,
+				EA25C17E21457F580014ECBB /* Debug */,
+				EA25C17F21457F580014ECBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EA25C0C3214087880014ECBB /* Build configuration list for PBXNativeTarget "InstagramClone" */ = {
+		EA25C18021457F580014ECBB /* Build configuration list for PBXNativeTarget "googleMapApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EA25C0C4214087880014ECBB /* Debug */,
-				EA25C0C5214087880014ECBB /* Release */,
+				EA25C18121457F580014ECBB /* Debug */,
+				EA25C18221457F580014ECBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EA25C0C6214087880014ECBB /* Build configuration list for PBXNativeTarget "InstagramCloneTests" */ = {
+		EA25C18321457F580014ECBB /* Build configuration list for PBXNativeTarget "googleMapAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EA25C0C7214087880014ECBB /* Debug */,
-				EA25C0C8214087880014ECBB /* Release */,
+				EA25C18421457F580014ECBB /* Debug */,
+				EA25C18521457F580014ECBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EA25C0C9214087880014ECBB /* Build configuration list for PBXNativeTarget "InstagramCloneUITests" */ = {
+		EA25C18621457F580014ECBB /* Build configuration list for PBXNativeTarget "googleMapAppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EA25C0CA214087880014ECBB /* Debug */,
-				EA25C0CB214087880014ECBB /* Release */,
+				EA25C18721457F580014ECBB /* Debug */,
+				EA25C18821457F580014ECBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = EA25C093214087810014ECBB /* Project object */;
+	rootObject = EA25C15021457F520014ECBB /* Project object */;
 }
